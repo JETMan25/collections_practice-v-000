@@ -11,8 +11,8 @@ end
 end
 
 def sort_array_char_count(array)
-  array.sort do {array.length |a, b|} 
-    a <=> b
+  array.sort do |a, b|
+    a.length <=> b.length
   end
 end
 
