@@ -38,11 +38,10 @@ def find_a(array)
 end
 
 def sum_array(array)
-  a = 0 
-  array.inject do |a, b|
-  a + b
+  sum = 0 
+  array.inject do |sum, x|
+  sum + x
   end
-  a
+  sum
 end
 
-end
