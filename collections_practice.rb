@@ -16,6 +16,6 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements(array, index, destination_index)
-  swap_elements_from_to(["a", "b", "c"],0,2)
+def swap_elements(array)
+  array[1]
 end
