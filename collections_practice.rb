@@ -45,3 +45,4 @@ array.each do |total|
   sum
 end
 
+
