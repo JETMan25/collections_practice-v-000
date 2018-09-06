@@ -38,10 +38,10 @@ def find_a(array)
 end
 
 def sum_array(array)
-sum = 0 
-array.inject do |total|
-sum+=total
-end
+  sum = 0 
+  array.inject do |total|
+  sum+=total
+  end
 end
 sum
 end
